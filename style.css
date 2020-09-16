@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(163, 5, 5);
+}
+.from-up{
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:white;
+  text-align: center;
+  border:solid 10px rgb(0, 0, 39);
+}
+.from-up input[type = "text"],.from-up input[type = "password"]{
+  padding: 10px 10px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  width: 200px;
+  border:solid 4px rgb(0, 0, 39) ;
+  color: rgb(163, 5, 5);
+  font-size: 20px;
+  font-family:bold;
+}
+.from-up input[type="submit"]{
+  padding: 13px 35px;
+  font-size: 20px;
+  font-family: 400;
+  background:rgb(97, 167, 248);
+  border:none;
+}
+.from-up input[type="submit"]:hover{
+  background:rgb(35, 133, 245);
+}
+/* ---------------------------------------- */
+.container{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color:white;
+}
+.but{
+  border:0;
+  background: rgb(97, 167, 248);;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 40px;
+  outline: none;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.but a{
+  font-size: 20px;
+  font-family: 400;
+  color: #000;
+  text-decoration: none;
+
+}
+.but a:hover{
+  
+  background:rgb(35, 133, 245);
+}
